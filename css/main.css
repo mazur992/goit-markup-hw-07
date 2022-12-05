@@ -711,7 +711,8 @@ p {
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.logo__span--white:hover .logo__span--white__span--white {
+
+.logo:hover .logo__span--white {
   color: #c4c4c4;
 }
 

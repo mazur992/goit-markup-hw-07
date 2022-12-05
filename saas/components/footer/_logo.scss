@@ -5,8 +5,7 @@
 .logo__span--white {
   color: white;
   transition: color $duration $cubic;
-
-  &:hover &__span--white {
-    color: #c4c4c4;
-  }
+}
+.logo:hover .logo__span--white {
+  color: #c4c4c4;
 }
