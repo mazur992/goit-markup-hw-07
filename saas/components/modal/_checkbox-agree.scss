@@ -1,0 +1,64 @@
+.checkbox-agree {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+
+  &__icon {
+    display: inline-block;
+
+    margin-left: 13px;
+
+    width: 16px;
+    height: 15px;
+    background-color: $backColorMain;
+    border: 2px solid $colMain;
+    border-radius: 2px;
+
+    transition: $duration $cubic;
+  }
+
+  &__input:checked + &__icon {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background-image: url(../images/nike.svg);
+    background-size: cover;
+    background-origin: border-box;
+    background-color: $accentColor;
+    border-color: $accentColor;
+  }
+
+  &__input:hover + &__icon {
+    border-color: $accentColor;
+    cursor: pointer;
+  }
+
+  &__input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+  &__text {
+    margin-left: 7px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+
+    letter-spacing: 0.03em;
+
+    color: $colMinor;
+  }
+
+  &__input:hover ~ &__text {
+    cursor: pointer;
+  }
+  &__link {
+    color: $accentColor;
+  }
+}

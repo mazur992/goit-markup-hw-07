@@ -1,0 +1,64 @@
+// Variables
+@import "./utils/variables";
+
+// Total
+@import "./components/total/container";
+@import "./components/total/body";
+@import "./components/total/list";
+@import "./components/total/img";
+@import "./components/total/padding-out-tag";
+@import "./components/total/section-title";
+@import "./components/total/section-title--bottom";
+@import "./components/total/visually-hidden";
+
+// MODAL
+@import "./components/modal/backdrop";
+@import "./components/modal/backdrop.is-hidden";
+@import "./components/modal/backdrop.is-hidden .modal";
+@import "./components/modal/modal";
+@import "./components/modal/modal-btn";
+@import "./components/modal/backdrop-form";
+@import "./components/modal/backdrop-element";
+@import "./components/modal/checkbox-agree";
+@import "./components/modal/backdrop-form-btn";
+
+// Header
+@import "./components/header/header";
+@import "./components/header/logo";
+@import "./components/header/header-nav";
+@import "./components/header/contacts";
+
+// Hero
+@import "./components/hero/hero";
+
+// Features
+@import "./components/features/features";
+
+// Works
+@import "./components/works/works";
+@import "./components/works/works-list";
+
+// Team
+@import "./components/team/team";
+@import "./components/team/team-list";
+@import "./components/team/list-socials";
+
+// Clientage
+@import "./components/clientage/clientage";
+@import "./components/clientage/list-clientage";
+
+// Footer
+@import "./components/footer/footer";
+@import "./components/footer/logo";
+@import "./components/footer/address";
+@import "./components/footer/footer-network";
+@import "./components/footer/footer-form";
+@import "./components/footer/container-email";
+@import "./components/footer/footer-btn";
+
+// Portfolio
+@import "./components/portfolio/portfolio";
+@import "./components/portfolio/select-list";
+@import "./components/portfolio/list-filtr";
+@import "./components/portfolio/img-action";
+@import "./components/portfolio/name-card";

@@ -1,0 +1,13 @@
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 528px;
+  height: 581px;
+  transform: translate(-50%, -50%) scale(1);
+  transition: transform $duration $cubic;
+
+  background: $backColorMain;
+  box-shadow: $shadow;
+  border-radius: 4px;
+}

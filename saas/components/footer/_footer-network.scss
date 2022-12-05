@@ -1,0 +1,40 @@
+.footer-network {
+  width: 206px;
+  margin-top: 12px;
+  margin-right: 93px;
+
+  &__title {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+    color: white;
+  }
+  &__list {
+    display: flex;
+    gap: 10px;
+  }
+  &__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 44px;
+    height: 44px;
+
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    cursor: pointer;
+
+    transition: background-color $duration $cubic;
+  }
+  &__icon {
+    fill: white;
+  }
+  &__link:hover,
+  &__link:focus {
+    background-color: $accentColor;
+  }
+}
