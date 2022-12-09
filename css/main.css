@@ -9,6 +9,7 @@ body {
   font-family: "Roboto", sans-serif;
   color: #212121;
   background-color: #ffffff;
+  min-width: 1200px;
 }
 
 .list {
